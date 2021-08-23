@@ -1,3 +1,36 @@
+# Requirements
+
+coding-test requires the following to run:
+
+  * [Node.js][node] 0.10+
+  * [npm][npm] (normally comes with Node.js)
+
+
+[node]: https://nodejs.org/
+[npm]: https://www.npmjs.com/
+
+# Usage
+
+Open two terminals:
+- for Server: `./coding-test` directory
+- For Client: `cd`  into the `./coding-test/client` directory
+
+In both terminals, run:
+
+```sh
+npm install
+```
+
+First start the [Server][server], then start the [Client][client] using:
+
+```sh
+npm start
+```
+
+[server]: http://localhost:3001/
+[client]: http://localhost:3000/
+[npm]: https://www.npmjs.com/
+
 # Ownr Developer Candidate Coding Test
 
 Congratulations, you have been asked to complete our Full Stack candidate proficiency test! 
